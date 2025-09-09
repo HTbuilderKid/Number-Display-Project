@@ -1,5 +1,4 @@
-
-
+*All the diagrams will be done in LucidChart, and will be available as screenshots in the files*
 
 4. private Intructor tutor;
 
@@ -15,14 +14,14 @@
 
 14. Since we now changed the && to ||, we basically made it so that now, only one side has to be true in order for the condition to work. Doing so basically goes againts everything we've done before, because now even the negatives and the really, really huge numbers can be set as value.
 
-15. 
+15. The NOT of true is false. The NOT of false is true. 2 is not bigger than 2 (left side is false), and 1 is not smaller than 0 (right side is also false), so the entire thing is false. Same thing again, but this time it's three comparisons: 2 isn't bigger than 2, 4 is equal to 4, but 1 isn't smaller than 0, so the entire thing is false. And finally, 34 is NOT equal to 33, so it's true, and NOT false is true, so the entire thing is true.
 
-16. 
+16. (a && b) || (!a && !b)
 
-17.
+17. (a && !b) || (!a && b)
 
 18. No, it does not work under any circumstances. For instance, I've tried to set the value to 100, but when I called the getDisplayValue method, the return was "00", which is a two digit String.
 
-19. 
+19. They do the same thing, but the second one is the one that we learned in class, and it looks a bit better, I guess. They both put the value between the "" and turns it into a string.
 
-20.
+20. I had to do some research online for this, but what I found out is that if the string comes last, like in the first instance, then the numbers will add first. But if the string comes first, like in the second instance, the numbers get treated like a string too, which is why they were not added together.
