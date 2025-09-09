@@ -9,4 +9,6 @@
 
 11. Well, I'm working on my project at home, and my PC's language is set to Chinese, so the error message is a bunch of shenanigans. What I do know is that we are simply supposed to put a number between the parenthesis, and since int is a keyword, it's considered an error. All we have to do is just remove the int. 
 
+12. Now that the <= has been added, the problem encountered in the second part of problem 9 will no longer occur. This is simply because of the =. Before, the value could only be changed if it's smaller than the limit (which didn't include the limit). However, now that we've added the =, it includes it.
+
 18. No, it does not work under any circumstances. For instance, I've tried to set the value to 100, but when I called the getDisplayValue method, the return was "00", which is a two digit String.
