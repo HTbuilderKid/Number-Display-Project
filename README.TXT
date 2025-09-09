@@ -1,5 +1,9 @@
 *All the diagrams will be done in LucidChart, and will be available as screenshots in the files*
 
+2. A class diagram can change when you're editing the class during coding, I guess (?)
+
+3. object diagrams can change when you are deleting the object, although we've never done that until now, or when the values of attributes are changed. 
+
 4. private Intructor tutor;
 
 8. No, only the first call resulted in a change in the stored value (from 6 to 3), while the second one did not. As we talked about in class, the code in written with specific parameters. If the entered value is outside of the range, the value will not change (which prevents us from entering huge value or nagative ones).
