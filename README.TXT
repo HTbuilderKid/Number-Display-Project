@@ -1,14 +1,10 @@
-Project: number-display
-Authors: Michael Kölling and David J. Barnes
 
-This project is part of the material for the book
 
-   Objects First with Java - A Practical Introduction using BlueJ
-   Seventh edition
-   David J. Barnes and Michael Kölling
 
-It is discussed in chapter 3.
+4. private Intructor tutor;
 
-To use this project, create an instance of class NumberDisplay. Then inspect this 
-instance and leave the inspector window open. With the inspector window open, 
-call the object's methods, such as increment and setValue.
+8. No, only the first call resulted in a change in the stored value (from 6 to 3), while the second one did not. 
+
+9. If we set the value of the newly created 'digit' object to 10, which is it's rollover limit, it will simply go back to 0. 
+
+18. No, it does not work under any circumstances. For instance, I've tried to set the value to 100, but when I called the getDisplayValue method, the return was "00", which is a two digit String.
